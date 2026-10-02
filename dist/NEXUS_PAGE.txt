@@ -1,0 +1,100 @@
+﻿=====================================================================
+NEXUS MOD PAGE  -  copy/paste into the Description box (BBCode)
+Mod name:  Extra Game Speeds (4x / 6x / 8x)
+Category:  Gameplay  |  Version: 1.0.0
+=====================================================================
+
+[size=4][b]What it does[/b][/size]
+
+Adds [b]4x, 6x and 8x[/b] speed buttons right next to the vanilla 1x / 2x / 3x.
+
+Your chosen speed [b]carries over to the next wave[/b], the same way the vanilla
+speeds do. Pause and menus keep working normally.
+
+[size=4][b]Requirements[/b][/size]
+
+[b]BepInEx 6 for IL2CPP, build 755 or newer.[/b]
+Older builds will not work: 9 Kings runs on Unity 6, and only BepInEx BE #755+
+can read its IL2CPP metadata.
+
+Easiest option: install [url=https://thunderstore.io/c/9-kings/p/BepInEx/BepInExPack_IL2CPP/]BepInExPack IL2CPP[/url] from Thunderstore,
+or use a mod manager such as r2modman or Gale, which installs it for you.
+
+[size=4][b]Installation[/b][/size]
+
+[list=1]
+[*]Install BepInEx first, then [b]launch the game once and let it sit for a few minutes[/b].
+The first launch is slow because BepInEx is generating files it needs.
+[*]Extract this mod's [i]BepInEx[/i] folder into your game folder, so the file ends up at:
+[code]<game>\BepInEx\plugins\NineKings.UltraSpeed\NineKings.UltraSpeed.dll[/code]
+[*]Launch the game.
+[/list]
+
+Steam game folder: [code]...\Steam\steamapps\common\9 Kings[/code]
+
+[size=4][b]How to use[/b][/size]
+
+Start a battle. Three new buttons appear to the right of 3x:
+
+[list]
+[*][b]yellow[/b] = 4x
+[*][b]orange[/b] = 6x
+[*][b]red[/b] = 8x
+[/list]
+
+Click one, or press [b]4[/b] / [b]5[/b] / [b]6[/b].
+Click the same button again to drop back to 3x. Picking 1x / 2x / 3x also turns it off.
+
+[size=4][b]Configuration[/b][/size]
+
+Created on first run at:
+[code]<game>\BepInEx\config\com.mods.ninekings.ultraspeed.cfg[/code]
+
+[list]
+[*][b]Speeds[/b] - [i]4,6,8[/i] - one button per value. Add more if you want, e.g. [i]4,6,8,12[/i]
+[*][b]Hotkeys[/b] - [i]Digit4,Digit5,Digit6[/i] - same order as Speeds
+[*][b]IconTints[/b] - [i]#FFD24A,#FF8A3D,#FF3D3D[/i] - button colours, same order
+[*][b]IncludeInCycle[/b] - [i]true[/i] - include them when cycling speed
+[*][b]Persist[/b] - [i]true[/i] - keep your speed between waves
+[/list]
+
+[size=4][b]Uninstall[/b][/size]
+
+Delete [code]<game>\BepInEx\plugins\NineKings.UltraSpeed\[/code]
+No game files are modified.
+
+[size=4][b]Bugs[/b][/size]
+
+If something breaks, please post it here. Say what happened and, if you can,
+attach [code]<game>\BepInEx\LogOutput.log[/code]
+
+
+---------------------------------------------------------------------
+BLOQUE VORTEX  -  pegar justo despues de la seccion "Installation"
+Sustituye <EXTENSION_URL> por el enlace de tu extension una vez publicada.
+---------------------------------------------------------------------
+
+[size=4][b]Installing with Vortex[/b][/size]
+
+Vortex has no built-in support for 9 Kings, so it needs a small game extension first.
+
+[list=1]
+[*]Download the [url=<EXTENSION_URL>]9 Kings Vortex Extension[/url] and drop the archive
+onto Vortex's [i]Extensions[/i] page (Settings -> Extensions -> drag & drop), then restart Vortex.
+[*]Go to [i]Games[/i], find [b]9 Kings[/b] under Unmanaged and click [b]Manage[/b].
+[*]Install [url=https://thunderstore.io/c/9-kings/p/BepInEx/BepInExPack_IL2CPP/]BepInExPack IL2CPP[/url]
+into the game folder yourself, then [b]launch the game once and let it finish[/b].
+The first launch is slow because BepInEx is generating files it needs.
+[*]Download this mod's archive with [b]Manual download[/b], then drag it into Vortex's
+drop zone (or use [i]Mods -> Install From File[/i]).
+[*]Click [b]Install[/b], then [b]Deploy[/b].
+[/list]
+
+[b]Why BepInEx is not installed automatically:[/b] 9 Kings runs on Unity 6 with IL2CPP
+(metadata v39). Only BepInEx 6 bleeding edge build [b]755 or newer[/b] can read it, and
+Vortex's generic BepInEx installer serves older builds that break the game. The extension
+deliberately leaves that step to you and just points you at the right build.
+
+[b]Note:[/b] the green "Mod Manager Download" button does not appear for 9 Kings, because
+Nexus has not enabled Vortex for this game's page. Use "Manual download" and drop the file
+into Vortex - it works exactly the same from there on.

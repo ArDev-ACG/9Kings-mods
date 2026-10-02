@@ -1,0 +1,6 @@
+{
+  "name": "Game: 9 Kings",
+  "author": "AldrichDDD",
+  "version": "0.1.0",
+  "description": "Adds Vortex support for 9 Kings (BepInEx 6 IL2CPP mods)."
+}

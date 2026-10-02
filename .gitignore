@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------
+# 9 Kings — .gitignore
+#
+# Al repo solo van fuentes propias. Nada del juego (SadSocket).
+# ---------------------------------------------------------------
+
+# --- Codigo del juego descompilado (NUNCA subir) ---
+dump/
+
+# --- Herramientas descargadas (Cpp2IL, etc.) ---
+tools/
+*.exe
+
+# --- Build de .NET ---
+bin/
+obj/
+*.pdb
+
+# --- Releases empaquetados (van a Nexus / Thunderstore / GitHub Releases) ---
+*.zip
+dist/package/
+dist/thunderstore/BepInEx/
+
+# --- Copias de seguridad y caches ---
+*.bak
+*.bak-*
+.impeccable/
+.claude/settings.local.json
+
+# --- Sistema / editor ---
+Thumbs.db
+desktop.ini
+.vs/
+.vscode/
+.idea/
+.obsidian/

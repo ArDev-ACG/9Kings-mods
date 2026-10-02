@@ -1,0 +1,15 @@
+Copyright (c) 2026 ArDev-ACG. All rights reserved.
+
+The source code and original assets in this repository are published so they
+can be read, studied and built for personal use. No licence is granted to copy,
+redistribute, re-upload or publish modified versions of them, in whole or in
+part, without written permission from the author. To ask, open an issue.
+
+The only official downloads are the author's own release pages.
+
+THIRD-PARTY CONTENT
+
+- 9 Kings and all of its assets are the property of Sad Socket. This repository contains
+  no game files, and this project is not affiliated with or endorsed by Sad Socket.
+- BepInEx (LGPL-2.1) and Harmony (MIT) are not included. Get them from their
+  official releases.

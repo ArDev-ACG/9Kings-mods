@@ -1,0 +1,9 @@
+﻿{
+  "name": "ExtraGameSpeeds",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Adds 4x, 6x and 8x speed buttons next to the vanilla 1x/2x/3x, and keeps your choice between waves.",
+  "dependencies": [
+    "BepInEx-BepInExPack_IL2CPP-6.0.755"
+  ]
+}
